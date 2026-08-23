@@ -1,0 +1,29 @@
+# ---- 运行时 / 临时文件 ----
+flask.log
+__pycache__/
+*.pyc
+*.pyo
+venv/
+outputs/
+uploads/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+test_*.mp4
+web_test*.mp4
+_t*.mp4
+_probe*.mp4
+out*.mp4
+bench*.mp4
+
+# ---- ffmpeg 文档（仓库只保留二进制，doc 不纳入） ----
+ffmpeg_dist/*/doc/
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
